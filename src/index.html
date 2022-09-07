@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Add an appropriate title in this tag -->
+  <title>Lab 1</title>
+
+  <!-- Links to stylesheets -->
+</head>
+
+<body>
+  <!-- Your visible elements -->
+  <!-- Navigation bar -->
+  <nav>
+    <a href="https://www.byu.edu">Visit byu.edu!</a>
+  </nav>
+
+  <h1>To Do List</h1>
+
+  <!-- Checkboxes -->
+  <input type="checkbox" id="sortByDate" name="sortByDate" value="Date">
+  <label for="sortByDate"> Sort by date</label>
+  <input type="checkbox" id="filterCompletedTasks" name="filterCompletedTasks" value="Tasks">
+  <label for="filterCompletedTasks"> Filter completed tasks</label><br>
+
+  <!-- List of tasks -->
+  <ul class="list">
+    <input type="checkbox" id="doHomework" name="doHomework" value="Homework">
+    <span style="color:black">Do homework</span>
+    <span style="color:black">09-07-2022</span>
+    <button type="button">delete</button><br>
+
+    <input type="checkbox" id="hangWithFriends" name="hangWithFriends" value="Friends">
+    <span style="color:black">Hang with friends</span>
+    <span style="color:black">09-08-2022</span>
+    <button type="button">delete</button><br>
+
+    <input type="checkbox" id="getSomeSleep" name="getSomeSleep" value="Sleep">
+    <span style="color:black">Get some sleep</span>
+    <span style="color:black">09-12-2022</span>
+    <button type="button">delete</button><br>
+  </ul>
+
+  <!-- Input Form -->
+  <form>
+    <input type="text" id="taskName" name="taskName" required><br>
+    <input type="date" id="date" name="date" required><br>
+    <input type="submit" value="Create Task" required><br>
+  </form>
+
+  <!-- Links to scripts -->
+  
+</body>
+
+</html>
